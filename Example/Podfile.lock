@@ -1,16 +1,103 @@
 PODS:
-  - LVKitModule (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
+  - FFPopup (1.1.5)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LookinServer (1.2.2):
+    - LookinServer/Core (= 1.2.2)
+  - LookinServer/Core (1.2.2)
+  - LVKitModule (0.1.0):
+    - LVKitModule/Category (= 0.1.0)
+    - LVKitModule/Custom (= 0.1.0)
+  - LVKitModule/Category (0.1.0)
+  - LVKitModule/Custom (0.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - OpenUDID (1.0.0)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - Toast (4.0.0)
+  - TYCyclePagerView (1.2.0)
+  - UICKeyChainStore (2.2.1)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
+  - DZNEmptyDataSet (= 1.8.1)
+  - FFPopup (~> 1.1.5)
+  - FMDB (~> 2.7.5)
+  - LookinServer
   - LVKitModule (from `../`)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
+  - MJExtension (~> 3.4.1)
+  - MJRefresh (= 3.7.5)
+  - OpenUDID (= 1.0.0)
+  - SDWebImage (~> 5.17.0)
+  - Toast (~> 4.0.0)
+  - TYCyclePagerView (= 1.2.0)
+  - UICKeyChainStore (= 2.2.1)
+  - YYModel (= 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DZNEmptyDataSet
+    - FFPopup
+    - FMDB
+    - LookinServer
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - OpenUDID
+    - SDWebImage
+    - Toast
+    - TYCyclePagerView
+    - UICKeyChainStore
+    - YYModel
 
 EXTERNAL SOURCES:
   LVKitModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LVKitModule: 94a46372b8c525b3d2081071798ae839e2bddb9e
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FFPopup: a208dcee8db3e54ec4a88fcd6481f6f5d85b7a83
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LookinServer: 3204eefff2f18e19fa546931fb5f1b88bc709a0b
+  LVKitModule: ed4a5a367651b7e70eccf5335eaf57101e4d7d10
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ec7437000f2cfd6dc876b690810f273126cbb69d
+PODFILE CHECKSUM: 1520085cc7b2fc79ff2c8e4c97f9b1c672dac406
 
 COCOAPODS: 1.12.0

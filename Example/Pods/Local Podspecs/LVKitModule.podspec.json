@@ -18,5 +18,20 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "LVKitModule/Classes/**/*"
+  "source_files": "LVKitModule/Classes/**/*",
+  "resource_bundles": {
+    "LVKitModule": [
+      "LVKitModule/Assets/*.xcassets"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Custom",
+      "source_files": "LVKitModule/Classes/Custom/**/*"
+    },
+    {
+      "name": "Category",
+      "source_files": "LVKitModule/Classes/Category/**/*"
+    }
+  ]
 }
