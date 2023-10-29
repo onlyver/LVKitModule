@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0732FBCB78FFAFC318E6DA04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0732FBCB78FFAFC318E6DA04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0ECFB821D4BB5E7444418A41 /* Pods-LVKitModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Tests/Pods-LVKitModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1510BE467D8CD6ACBFD5F607 /* Pods_LVKitModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LVKitModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LVKitModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LVKitModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DEA6647EDBEFC8BE0BA0386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7DEA6647EDBEFC8BE0BA0386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		985685060821FD989A0D96C6 /* Pods-LVKitModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Tests/Pods-LVKitModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0F96565432872F94EBFC50E /* Pods_LVKitModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LVKitModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD01173CEB255E9BAC7F4E85 /* Pods-LVKitModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Example/Pods-LVKitModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C056632CC3DE85C7B31D8BBE /* Pods-LVKitModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Example.release.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Example/Pods-LVKitModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4ADBAA6DC0AFBDD40905A34 /* LVKitModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LVKitModule.podspec; path = ../LVKitModule.podspec; sourceTree = "<group>"; };
+		F4ADBAA6DC0AFBDD40905A34 /* LVKitModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LVKitModule.podspec; path = ../LVKitModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				0ECFB821D4BB5E7444418A41 /* Pods-LVKitModule_Tests.debug.xcconfig */,
 				985685060821FD989A0D96C6 /* Pods-LVKitModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

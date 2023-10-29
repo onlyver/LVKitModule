@@ -1,0 +1,22 @@
+{
+  "name": "LVKitModule",
+  "version": "0.1.0",
+  "summary": "A short description of LVKitModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/onlyver/LVKitModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "onlyver": "1072539675@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/onlyver/LVKitModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LVKitModule/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module LVKitModule {
+  umbrella header "LVKitModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -27,11 +27,11 @@ TODO: Add long description of the pod here.
   s.author           = { 'onlyver' => '1072539675@qq.com' }
   s.source           = { :git => 'https://github.com/onlyver/LVKitModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'LVKitModule/Classes/**/*'
-  
+   s.resource_bundles = {
+     'LVKitModule' => ['LVKitModule/Assets/*.xcassets']
+   }
   # s.resource_bundles = {
   #   'LVKitModule' => ['LVKitModule/Assets/*.png']
   # }
