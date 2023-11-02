@@ -15,17 +15,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = UIColor.whiteColor;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+/**进入后台时保存tab排序*/
+- (void)saveTabOrder
+{
+    // Store the tab-order to preferences.
+    NSMutableArray *classNames = [[NSMutableArray alloc] init];
+    for (UIViewController *controller in self.viewControllers)
+    {
+        if ([controller isKindOfClass:[UINavigationController class]])
+        {
+            UINavigationController *navController = (UINavigationController *)controller;
+            
+            [classNames addObject:NSStringFromClass([navController.topViewController class])];
+        }
+        else
+        {
+            [classNames addObject:NSStringFromClass([controller class])];
+        }
+    }
+    [[NSUserDefaults standardUserDefaults] setObject:classNames forKey:kTabBarOrderPrefKey];
+    
 }
-*/
 
 @end

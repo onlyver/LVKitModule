@@ -24,6 +24,13 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CEA360CF2AEE696A0075C4F9 /* CrossfadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360CD2AEE696A0075C4F9 /* CrossfadeAnimationController.m */; };
+		CEA360E42AEE6A670075C4F9 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360D22AEE6A660075C4F9 /* FourViewController.m */; };
+		CEA360E52AEE6A670075C4F9 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360D42AEE6A660075C4F9 /* OneViewController.m */; };
+		CEA360E82AEE6A670075C4F9 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360D92AEE6A660075C4F9 /* ThreeViewController.m */; };
+		CEA360EB2AEE6A670075C4F9 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360E12AEE6A670075C4F9 /* TwoViewController.m */; };
+		CEA360F22AEE7C6D0075C4F9 /* FiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360F12AEE7C6D0075C4F9 /* FiveVC.m */; };
+		CEA360F52AEE7C810075C4F9 /* SixVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA360F42AEE7C810075C4F9 /* SixVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,20 @@
 		A0F96565432872F94EBFC50E /* Pods_LVKitModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LVKitModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD01173CEB255E9BAC7F4E85 /* Pods-LVKitModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Example/Pods-LVKitModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C056632CC3DE85C7B31D8BBE /* Pods-LVKitModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVKitModule_Example.release.xcconfig"; path = "Target Support Files/Pods-LVKitModule_Example/Pods-LVKitModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEA360CD2AEE696A0075C4F9 /* CrossfadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossfadeAnimationController.m; sourceTree = "<group>"; };
+		CEA360CE2AEE696A0075C4F9 /* CrossfadeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossfadeAnimationController.h; sourceTree = "<group>"; };
+		CEA360D22AEE6A660075C4F9 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		CEA360D42AEE6A660075C4F9 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		CEA360D62AEE6A660075C4F9 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		CEA360D92AEE6A660075C4F9 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		CEA360DD2AEE6A660075C4F9 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		CEA360E02AEE6A670075C4F9 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		CEA360E12AEE6A670075C4F9 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		CEA360E22AEE6A670075C4F9 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		CEA360F02AEE7C6D0075C4F9 /* FiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveVC.h; sourceTree = "<group>"; };
+		CEA360F12AEE7C6D0075C4F9 /* FiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveVC.m; sourceTree = "<group>"; };
+		CEA360F32AEE7C810075C4F9 /* SixVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixVC.h; sourceTree = "<group>"; };
+		CEA360F42AEE7C810075C4F9 /* SixVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixVC.m; sourceTree = "<group>"; };
 		F4ADBAA6DC0AFBDD40905A34 /* LVKitModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LVKitModule.podspec; path = ../LVKitModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -134,9 +155,12 @@
 			children = (
 				6003F59C195388D20070C39A /* LVAppDelegate.h */,
 				6003F59D195388D20070C39A /* LVAppDelegate.m */,
+				CEA360D02AEE6A240075C4F9 /* vcs */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LVViewController.h */,
 				6003F5A6195388D20070C39A /* LVViewController.m */,
+				CEA360CE2AEE696A0075C4F9 /* CrossfadeAnimationController.h */,
+				CEA360CD2AEE696A0075C4F9 /* CrossfadeAnimationController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +218,25 @@
 				985685060821FD989A0D96C6 /* Pods-LVKitModule_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEA360D02AEE6A240075C4F9 /* vcs */ = {
+			isa = PBXGroup;
+			children = (
+				CEA360E22AEE6A670075C4F9 /* FourViewController.h */,
+				CEA360D22AEE6A660075C4F9 /* FourViewController.m */,
+				CEA360D62AEE6A660075C4F9 /* OneViewController.h */,
+				CEA360D42AEE6A660075C4F9 /* OneViewController.m */,
+				CEA360DD2AEE6A660075C4F9 /* ThreeViewController.h */,
+				CEA360D92AEE6A660075C4F9 /* ThreeViewController.m */,
+				CEA360E02AEE6A670075C4F9 /* TwoViewController.h */,
+				CEA360E12AEE6A670075C4F9 /* TwoViewController.m */,
+				CEA360F02AEE7C6D0075C4F9 /* FiveVC.h */,
+				CEA360F12AEE7C6D0075C4F9 /* FiveVC.m */,
+				CEA360F32AEE7C810075C4F9 /* SixVC.h */,
+				CEA360F42AEE7C810075C4F9 /* SixVC.m */,
+			);
+			name = vcs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,9 +454,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA360EB2AEE6A670075C4F9 /* TwoViewController.m in Sources */,
+				CEA360E42AEE6A670075C4F9 /* FourViewController.m in Sources */,
+				CEA360F22AEE7C6D0075C4F9 /* FiveVC.m in Sources */,
 				6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */,
+				CEA360F52AEE7C810075C4F9 /* SixVC.m in Sources */,
 				6003F5A7195388D20070C39A /* LVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CEA360E52AEE6A670075C4F9 /* OneViewController.m in Sources */,
+				CEA360CF2AEE696A0075C4F9 /* CrossfadeAnimationController.m in Sources */,
+				CEA360E82AEE6A670075C4F9 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +594,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LVKitModule/LVKitModule-Prefix.pch";
 				INFOPLIST_FILE = "LVKitModule/LVKitModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +611,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LVKitModule/LVKitModule-Prefix.pch";
 				INFOPLIST_FILE = "LVKitModule/LVKitModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

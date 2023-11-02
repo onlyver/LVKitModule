@@ -11,9 +11,13 @@
 #endif
 
 #import "UITabBarController+LV.h"
+#import "LVKitConst.h"
 #import "LVTabBarController.h"
+#import "LVVCOfTabBarVC.h"
+#import "LVKitModule.h"
 #import "UITabBarController+LV.h"
 #import "LVTabBarController.h"
+#import "LVVCOfTabBarVC.h"
 
 FOUNDATION_EXPORT double LVKitModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char LVKitModuleVersionString[];

@@ -48,4 +48,7 @@ Pod::Spec.new do |s|
     s_Category.source_files = 'LVKitModule/Classes/Category/**/*'
   end
   
+  s.subspec 'Category' do |s_Const|
+    s_Const.source_files = 'LVKitModule/Classes/Const/**/*'
+  end
 end
