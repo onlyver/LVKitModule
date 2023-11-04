@@ -10,12 +10,15 @@
 #endif
 #endif
 
+#import "LVCategory.h"
 #import "UITabBarController+LV.h"
-#import "LVKitConst.h"
+#import "LVConst.h"
 #import "LVTabBarController.h"
 #import "LVVCOfTabBarVC.h"
 #import "LVKitModule.h"
+#import "LVCategory.h"
 #import "UITabBarController+LV.h"
+#import "LVConst.h"
 #import "LVTabBarController.h"
 #import "LVVCOfTabBarVC.h"
 

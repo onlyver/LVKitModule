@@ -24,17 +24,45 @@
       "LVKitModule/Assets/*.xcassets"
     ]
   },
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ]
+  },
   "subspecs": [
     {
       "name": "Custom",
-      "source_files": "LVKitModule/Classes/Custom/**/*"
+      "public_header_files": "LVKitModule/Classes/Custom/**/*.h",
+      "source_files": "LVKitModule/Classes/Custom/**/*.{h,m}"
     },
     {
       "name": "Category",
+      "public_header_files": "LVKitModule/Classes/Category/**/*.h",
       "source_files": "LVKitModule/Classes/Category/**/*"
     },
     {
-      "name": "Category",
+      "name": "Route",
+      "public_header_files": "LVKitModule/Classes/Route/**/*.h",
+      "source_files": "LVKitModule/Classes/Route/**/*"
+    },
+    {
+      "name": "Request",
+      "public_header_files": "LVKitModule/Classes/Request/**/*.h",
+      "source_files": "LVKitModule/Classes/Request/**/*"
+    },
+    {
+      "name": "Debug",
+      "public_header_files": "LVKitModule/Classes/Debug/**/*.h",
+      "source_files": "LVKitModule/Classes/Debug/**/*"
+    },
+    {
+      "name": "Utils",
+      "public_header_files": "LVKitModule/Classes/Utils/**/*.h",
+      "source_files": "LVKitModule/Classes/Utils/**/*"
+    },
+    {
+      "name": "Const",
+      "public_header_files": "LVKitModule/Classes/Const/**/*.h",
       "source_files": "LVKitModule/Classes/Const/**/*"
     }
   ]

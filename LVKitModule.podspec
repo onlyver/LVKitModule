@@ -39,16 +39,44 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
-  s.subspec 'Custom' do |s_Custom|
-    s_Custom.source_files = 'LVKitModule/Classes/Custom/**/*'
+  s.dependency 'Masonry', '1.1.0'
+  s.subspec 'Custom' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Custom/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Custom/**/*.{h,m}'
   end
 
-  s.subspec 'Category' do |s_Category|
-    s_Category.source_files = 'LVKitModule/Classes/Category/**/*'
+  s.subspec 'Category' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Category/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Category/**/*'
   end
   
-  s.subspec 'Category' do |s_Const|
-    s_Const.source_files = 'LVKitModule/Classes/Const/**/*'
+  s.subspec 'Route' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Route/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Route/**/*'
   end
+  
+  s.subspec 'Request' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Request/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Request/**/*'
+  end
+  
+  s.subspec 'Debug' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Debug/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Debug/**/*'
+  end
+  
+  s.subspec 'Utils' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Utils/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Utils/**/*'
+  end
+  
+  s.subspec 'Const' do |ss|
+      ss.public_header_files = 'LVKitModule/Classes/Const/**/*.h'
+      ss.source_files = 'LVKitModule/Classes/Const/**/*'
+  end
+  
+#  s.subspec 'Category' do |ss|
+#      ss.public_header_files = 'LVKitModule/Classes/Category/**/*.h'
+#      ss.source_files = 'LVKitModule/Classes/Category/**/*'
+#  end
 end
